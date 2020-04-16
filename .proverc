@@ -1,0 +1,5 @@
+--color
+-v
+--trap
+--jobs 3
+-PMultipleConfig=t::Prepare,./config/config1.pl,./config/config2.pl,./config/config3.pl
