@@ -50,7 +50,36 @@ sub child_hook {
 
     my $config = ConfigCache->pop_configs();
     ConfigCache->set_config_by_pid($$, $config);
-    $ENV{ PERL_MULTI_DB_DSN } = $config;
+    $ENV{ PERL_MULTIPLE_CONFIG } = $config;
 }
 
 1;
+__END__
+
+=encoding utf-8
+
+=head1 NAME
+
+App::Prove::Plugin::MultipleConfig - It's new $module
+
+=head1 SYNOPSIS
+
+    use App::Prove::Plugin::MultipleConfig;
+
+=head1 DESCRIPTION
+
+App::Prove::Plugin::MultipleConfig is ...
+
+=head1 LICENSE
+
+Copyright (C) takahito.yamada.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=head1 AUTHOR
+
+takahito.yamada
+
+=cut
+

@@ -7,7 +7,7 @@ use DBI;
 use Redis;
 
 subtest 'test1' => sub {
-    my $config_path = $ENV{PERL_MULTI_DB_DSN};
+    my $config_path = $ENV{PERL_MULTIPLE_CONFIG};
     print "\n $0 uses $config_path\n";
     my $conf = do $config_path;
 
