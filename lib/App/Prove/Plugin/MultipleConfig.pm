@@ -25,7 +25,6 @@ sub load {
         eval "require $module"  ## no critic
             or die "$@";
 
-
         for my $config (@configs){
             my $valid = do $config;
             if (!defined $valid){
@@ -54,6 +53,7 @@ sub child_hook {
 }
 
 1;
+
 __END__
 
 =encoding utf-8

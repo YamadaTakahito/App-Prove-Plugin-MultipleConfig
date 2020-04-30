@@ -1,7 +1,7 @@
 {
    "abstract" : "It's new $module",
    "author" : [
-      "takahito.yamada "
+      "takahito.yamada"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.1.10, CPAN::Meta::Converter version 2.150010",
@@ -42,17 +42,38 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "App::Prove" : "3.42",
+            "Cache::FastMmap" : "1.49",
+            "POSIX::AtFork" : "0.04",
+            "Test::Harness" : "3.42",
+            "parent" : "0.238"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "DBD::mysql" : "2.1026",
+            "DBI" : "1.612",
+            "Redis" : "1.996",
+            "Test::More" : "1.302174"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/YamadaTakahito/App-Prove-Plugin-MultipleConfig/issues"
+      },
+      "homepage" : "https://github.com/YamadaTakahito/App-Prove-Plugin-MultipleConfig",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/YamadaTakahito/App-Prove-Plugin-MultipleConfig.git",
+         "web" : "https://github.com/YamadaTakahito/App-Prove-Plugin-MultipleConfig"
+      }
+   },
    "version" : "0.01",
+   "x_contributors" : [
+      "YamadaTakahito <d.p.t.a.d.fighter@gmail.com>"
+   ],
    "x_serialization_backend" : "JSON::PP version 2.97001",
    "x_static_install" : 1
 }
