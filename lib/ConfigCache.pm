@@ -58,3 +58,29 @@ sub push_configs {
 }
 
 1;
+
+=head1 NAME
+
+ConfigCache - shared cache for MultipleConfig
+
+=head1 DESCRIPTION
+
+ConfigCache is shared cache for config files.
+This module uses L<Cache::FastMmap>
+
+=head1 LICENSE
+
+Copyright (C) takahito.yamada.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=head1 AUTHOR
+
+takahito.yamada
+
+=head1 SEE ALSO
+
+L<prove>, L<Cache::FastMmap>
+
+=cut

@@ -24,3 +24,31 @@ sub open_test {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+TAP::Formatter::MultipleConfig - TAP::Formatter for MultipleConfig
+
+=head1 DESCRIPTION
+
+TAP::Formatter::MultipleConfig is TAP::Formatter for MultipleConfig.
+Before starting each test, this module associate a pid with a filename.
+
+=head1 LICENSE
+
+Copyright (C) takahito.yamada.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=head1 AUTHOR
+
+takahito.yamada
+
+=head1 SEE ALSO
+
+L<prove>, L<App::Prove::Plugin::MySQLPool>
+
+=cut

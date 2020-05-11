@@ -16,3 +16,29 @@ sub _output_ruler {
 }
 
 1;
+
+=head1 NAME
+
+TAP::Formatter::Console::NoRulerParallelSession - TAP::Formatter::Console for MultipleConfig
+
+=head1 DESCRIPTION
+
+TAP::Formatter::Console::NoRulerParallelSession is for not emitting ruler when testing.
+This is because some CI can't render ruler correctly.
+
+=head1 LICENSE
+
+Copyright (C) takahito.yamada.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=head1 AUTHOR
+
+takahito.yamada
+
+=head1 SEE ALSO
+
+L<prove>, L<App::Prove::Plugin::MySQLPool>
+
+=cut
