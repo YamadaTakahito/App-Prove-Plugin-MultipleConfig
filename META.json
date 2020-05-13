@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "set multiple configs for parallel prove tests",
    "author" : [
       "takahito.yamada"
    ],
@@ -70,7 +70,7 @@
          "web" : "https://github.com/YamadaTakahito/App-Prove-Plugin-MultipleConfig"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "YamadaTakahito <d_p.t.a.d.fighter@icloud.com>"
    ],
